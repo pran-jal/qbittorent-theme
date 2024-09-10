@@ -1,0 +1,74 @@
+/*MAIN*/
+QMainWindow,
+QDockWidget {
+    background-color: #011627;
+}
+
+QWidget {
+    border-color: #ffffff;
+    background-color: #011627;
+}
+
+/*setting popup*/
+QWidget QGroupBox QCheckBox,
+QLabel,
+QCheckBox,
+QAbstractCheckBox,
+QTreeView::indicator,
+QRadioButton,
+QSlider:horizontal,
+QSlider:vertical {
+    background-color: transparent;
+}
+
+/*text color*/
+QObject,
+QObject::separator,
+QObject::handle,
+QObject::tab-bar,
+QObject::tab,
+QObject::section {
+    outline: 0;
+    selection-color: #ffffff;
+    color: #ffffff;
+    border-radius: 2px;
+    selection-background-color: rgba(255, 255, 255, 20);
+    alternate-background-color: transparent;
+}
+
+QDialog,
+QWizard *,
+QCalendarWidget *,
+#qswPages>QObject {
+    background-color: #011627;
+    color: #ffffff;
+}
+
+/*TOOLBUTTON below file edit view ...*/
+QToolBar {
+    background-color: #011627;
+}
+
+/* toolbar seperator line between delete and continue and pause and settings*/
+QToolBar::separator {
+    background: #ffffff;
+}
+
+/* QSplitter panel seperator*/
+
+QSplitter::handle {
+    background: #122D42;
+}
+
+QSplitter::handle:horizontal {
+    width: 1px;
+}
+
+QSplitter::handle:vertical {
+    height: 1px;
+}
+
+QSplitter::handle:pressed {
+    background: #219FD5;
+    width: 50px;
+}

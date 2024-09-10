@@ -18,8 +18,8 @@
 
         "Palette.Dark": "#011627",
 
-        "Palette.Highlight": "#0",
-        "Palette.HighlightedText": "#11111b",
+        "Palette.Highlight": "#11111b",
+        "Palette.HighlightedText": "#f0afa0",
         "Palette.HighlightedTextDisabled": "#7f849c",
 
         "Palette.Light": "#011627",
