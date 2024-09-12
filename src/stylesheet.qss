@@ -1,0 +1,36 @@
+/*MAIN*/
+QMainWindow,
+QDockWidget {
+    background-color: #011627;
+}
+
+QWidget {
+    border-color: #219FD5;
+    background-color: #011627;
+}
+
+QLabel, QRadioButton, QCheckBox, QAbstractCheckBox, QTreeView::indicator, QSlider:horizontal, QSlider:vertical {
+    background-color: transparent;
+    
+}
+
+/*TOOLBUTTON below file edit view ...*/
+QToolBar {
+    background-color: #011627;
+}
+
+/* toolbar seperator line between delete and continue and pause and settings */
+QToolBar::separator {
+    background: #ffffff;
+    width: 0px;
+}
+
+/* QSplitter panel seperator*/
+QSplitter::handle {
+    background-color: #122D42;
+    height: 1px;
+}
+
+QSplitter::handle:pressed {
+    background-color: #219FD5;
+}
