@@ -1,6 +1,6 @@
 <!DOCTYPE RCC><RCC version="1.0">
 	<qresource>
 		<file>config.json</file>
-		<file>stylesheet.qss</file>
+		<file alias='stylesheet.qss'>stylesheet.qss</file>
 	</qresource>
 </RCC>

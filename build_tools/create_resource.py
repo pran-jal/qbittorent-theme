@@ -11,7 +11,10 @@ def create_resource_file(files, path = None):
 
         if files:
             for file in files:
-                res_file.write(f'\t\t<file>{file}</file>\n')
+                if file.get("alias"):
+                    res_file.write(f"\t\t<file alias='{file['alias']}'>{file['name']}</file>\n")
+                else:
+                    res_file.write(f"\t\t<file>{file['name']}</file>\n")
 
         res_file.write('\t</qresource>\n')
         res_file.write('</RCC>\n')
