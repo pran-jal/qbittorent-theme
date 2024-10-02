@@ -32,5 +32,32 @@ QSplitter::handle {
 }
 
 QSplitter::handle:pressed {
-    background-color: #219FD5;
+    background-color: #00ffff;
+}
+
+QSplitter::handle:focus {
+    background-color: #00ffff;
+}
+
+/* scrolbar slider */
+QScrollBar::handle:vertical {
+    background-color: #219FD555;
+    border-radius: 0px;
+    margin: 0px 2px 0px 6px;
+}
+
+QScrollBar::handle:horizontal {
+    background-color: #219FD555;
+    border-radius: 0px;
+    margin: 6px 0px 2px 0px;
+}
+
+/* scrolbar slider top/left button */
+QScrollBar::sub-line {
+    background: transparent;
+}
+
+/* scrolbar slider bottom/right button */
+QScrollBar::add-line {
+    background: transparent;
 }
